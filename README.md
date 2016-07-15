@@ -1,10 +1,10 @@
 # Iterating Over a Dictionary
 
-![Drawing](http://i.imgur.com/b7yce4Z.jpg?1)
+![Drawing](http://i.imgur.com/6eQNjxm.jpg?1)
 
 > Never tell me the odds. -[Han Solo](https://en.wikipedia.org/wiki/Han_Solo)
 
-## Learning Objectives - The student should be able to...
+## Learning Objectives
 
 * Retrieve values from a dictonary given a key
 * Iterate over the entries (key/value pairs) in a dictionary
@@ -36,7 +36,7 @@ In a real-world dictionary, words and their definitions are printed out on paper
 
 Yes, you can. A Swift `Dictionary` supports _iteration_, just like an array. When you iterate through a Swift dictionary, though, you get back both the key and value for every entry in the dictionary (unlike an array, where you just get back the item, since arrays don't have keys and values).
 
-Imagine you want to iterate through each of the airport codes and names and print the message "The abbreviation for &lt;Airport&gt; is &lt;Code&gt>." How would you pull that off?
+Imagine you want to iterate through each of the airport codes and names and print the message "The abbreviation for < Airport > is < Code >." How would you pull that off?
 
 Given the above constant definition for `airports`, you could easily do something like this:
 
@@ -92,13 +92,13 @@ for (airportCode, airportName) in airports {
 // prints The abbreviation for John F. Kennedy International Airport is JFK
 ```
 
-Iterating over dictionaries isn't much different than iterating over arrays. Did you notice something surprising about the output, though? The original dictionary you defined had a different order than the output. The original dictionary had keys in the order "YYZ", "DUB", and "JFK", but the dictionary output them in the order "DUB", "YYZ", and "JFK". This is because dictionaries are _unordered_. Unlike arrays, the order in which you put items is not necessarily the order you get them out when iterating. Sometimes you will get output in the same order, but this is not guaranteed.
+Iterating over dictionaries isn't much different from iterating over arrays. Did you notice something surprising about the output, though? The original dictionary you defined had a different order than the output. The original dictionary had keys in the order "YYZ", "DUB", and "JFK", but the dictionary output them in the order "DUB", "YYZ", and "JFK". This is because dictionaries are _unordered_. Unlike arrays, the order in which you put items is not necessarily the order you get them out when iterating. Sometimes you will get output in the same order, but this is not guaranteed.
 
 ## Much Ado About Dictionaries
 
 There's nothing special at all about dictionary iteration. The dictionaries you've seen so far have been fairly simple mappings of `String`s to other `String`s. You can have fancier, more complex dictionaries, but iterating over such dictionaries is no different.
 
-Let's illustrate this by talking about movies for a second. Are you familar with the _Toy Story_, _Star Wars_, and _Fast &amp; Furious_ film franchises? In case you're not, there are five movies in the _Toy Story_ series:
+Let's illustrate this by talking about movies for a second. Are you familiar with the _Toy Story_, _Star Wars_, and _Fast &amp; Furious_ film franchises? In case you're not, there are five movies in the _Toy Story_ series:
 
 ![Toy Story](https://s3.amazonaws.com/learn-verified/toy-story.png)
 
@@ -143,7 +143,7 @@ let starWarsFilms = [
 let fastAndFuriousFilms = [
     "The Fast and the Furious",
     "2 Fast 2 Furious",
-    "Turbo-Charged Prelud",
+    "Turbo-Charged Prelude",
     "Tokyo Drift",
     "Fast & Furious",
     "Los Bandoleros",
@@ -166,7 +166,7 @@ let movies = [
 ]
 ```
 
-What is the type of `movies`? <kbd>Option</kbd>-click on `movies` to see what type it is.
+What is the type of `movies`? Option-click on `movies` to see what type it is.
 
 ![`movies` type](https://s3.amazonaws.com/learn-verified/dictionary-array.png)
 
