@@ -4,17 +4,20 @@
 
 > Never tell me the odds. -[Han Solo](https://en.wikipedia.org/wiki/Han_Solo)
 
+## Overview
+
+In this lesson we'll use looping to iterate over dictionaries. 
+
 ## Learning Objectives
 
 * Retrieve values from a dictonary given a key
-* Iterate over the entries (key/value pairs) in a dictionary
-* Understand that dictionaries are unordered
+* Iterate over the elements in a dictionary
 * Recognize that a dictionary's keys need not be the same type as its values
-* Recognize that types other than `String`s can be stored in a dictionary
+* Store arrays as values in a dictionary 
 
 ## Recapping Dictionaries
 
-You should recall from your previous lesson the purpose of a dictionary. In the real world, a dictionary _maps_ a word to its definition. Similarly, in the Swift world, a dictionary data structure maps a _key_ to a _value_. The keys can be of any type (although they are most commonly strings), and the values can be of any type. However, in a Swift dictionary, all keys must be of the same type (you can't have some `String` keys and some `Int` keys) and all values must be of the same type as each other (although not necessarily the same type as their keys).
+In the real world, a dictionary _maps_ a word to its definition. Similarly, in the Swift world, a dictionary data structure maps a _key_ to a _value_. The keys can be of any type (although they are most commonly strings), and the values can be of any type. However, in a Swift dictionary, all keys must be of the same type (you can't have some `String` keys and some `Int` keys) and all values must be of the same type as each other (although not necessarily the same type as their keys).
 
 When would you want to use a dictionary, though? A dictionary maps pieces of data that you _know_ (i.e., can get from the user or some other source) to pieces of information you _don't know_, just like a real-world dictionary maps a word you know to a definition you don't know (but want to know).
 
