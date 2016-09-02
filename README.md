@@ -105,7 +105,7 @@ Let's illustrate this by talking about movies for a second. Are you familiar wit
 
 ![Toy Story](https://s3.amazonaws.com/learn-verified/toy-story.png)
 
-_Star Wars_ has nine planned movies and a TV show:
+_Star Wars_ has ten planned movies and a TV show:
 
 ![Star Wars](https://s3.amazonaws.com/learn-verified/star-wars.png)
 
@@ -196,3 +196,5 @@ Try out some more examples on your own until you are comfortable with dictionari
 
 
 
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-dictionaryIteration-readme'>Iterating Over a Dictionary</a> on Learn.co and start learning to code for free.</p>
