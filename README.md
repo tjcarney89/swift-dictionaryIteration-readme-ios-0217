@@ -73,7 +73,7 @@ Aside from the tuple issue, iterating over a dictionary looks the same as iterat
 
 ```swift
 for (key, value) in airports {
-    print("The abbreviation for \(key) is \(value)")
+    print("The abbreviation for \(value) is \(key)")
 }
 // prints The abbreviation for Dublin is DUB
 // prints The abbreviation for Toronto Pearson is YYZ
